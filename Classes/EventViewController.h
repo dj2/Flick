@@ -1,6 +1,7 @@
 #import "Event.h"
+#import "EventView.h"
 
-@interface EventViewController : UITableViewController
+@interface EventViewController : UITableViewController <EventViewDelegate>
 {
     Event *event;
 }

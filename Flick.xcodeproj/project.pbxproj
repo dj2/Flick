@@ -17,6 +17,8 @@
 		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		52476BD410350C02004CCF67 /* EventView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52476BD310350C02004CCF67 /* EventView.m */; };
+		52476BF510351AB1004CCF67 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52476BF410351AB1004CCF67 /* QuartzCore.framework */; };
 		52BDE8FE1033D4A000B98DAE /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BDE8FD1033D4A000B98DAE /* EventViewController.m */; };
 		52BDE9051033D6AB00B98DAE /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BDE9041033D6AB00B98DAE /* Event.m */; };
 /* End PBXBuildFile section */
@@ -36,6 +38,9 @@
 		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52476BD210350C02004CCF67 /* EventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventView.h; sourceTree = "<group>"; };
+		52476BD310350C02004CCF67 /* EventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventView.m; sourceTree = "<group>"; };
+		52476BF410351AB1004CCF67 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
 		52BDE8FC1033D4A000B98DAE /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
 		52BDE8FD1033D4A000B98DAE /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 		52BDE9031033D6AB00B98DAE /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = Classes/Event.h; sourceTree = "<group>"; };
@@ -52,6 +57,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
 				28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */,
+				52476BF510351AB1004CCF67 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +73,8 @@
 				1D3623250D0F684500981E51 /* FlickAppDelegate.m */,
 				52BDE8FC1033D4A000B98DAE /* EventViewController.h */,
 				52BDE8FD1033D4A000B98DAE /* EventViewController.m */,
+				52476BD210350C02004CCF67 /* EventView.h */,
+				52476BD310350C02004CCF67 /* EventView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -116,6 +124,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52476BF410351AB1004CCF67 /* QuartzCore.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
@@ -191,6 +200,7 @@
 				28860B770F44E54D00985440 /* Flick.xcdatamodel in Sources */,
 				52BDE8FE1033D4A000B98DAE /* EventViewController.m in Sources */,
 				52BDE9051033D6AB00B98DAE /* Event.m in Sources */,
+				52476BD410350C02004CCF67 /* EventView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
