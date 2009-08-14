@@ -60,10 +60,6 @@
 					<object class="IBUIViewController" id="619226028">
 						<object class="IBUINavigationItem" key="IBUINavigationItem" id="394667715">
 							<reference key="IBUINavigationBar"/>
-							<object class="IBUIBarButtonItem" key="IBUIBackBarButtonItem" id="821575081">
-								<string key="IBUITitle">Events</string>
-								<int key="IBUIStyle">1</int>
-							</object>
 						</object>
 						<reference key="IBUIParentViewController" ref="701001926"/>
 						<string key="IBUINibName">RootViewController</string>
@@ -164,14 +160,8 @@
 						<reference key="object" ref="394667715"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="821575081"/>
 						</object>
 						<reference key="parent" ref="619226028"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">16</int>
-						<reference key="object" ref="821575081"/>
-						<reference key="parent" ref="394667715"/>
 					</object>
 				</object>
 			</object>

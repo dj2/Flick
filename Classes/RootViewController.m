@@ -10,6 +10,7 @@
 {
     [super viewDidLoad];
 
+    self.navigationItem.title = @"Events";
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
     
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
